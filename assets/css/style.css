@@ -312,6 +312,56 @@ header {
 
 /* Blog Entries */
 
+/* Talk To Us */
+.talk-to-us {
+    background: #F2F2FE;
+    padding: 120px 0;
+}
+
+.talk-to-us .inner-content .inner-title {
+    font-size: 18px;
+    color: #000;
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+
+.talk-to-us .inner-content .inner-desc-one {
+    color: #777777;
+    margin-bottom: 28px;
+}
+
+.talk-to-us .inner-content .inner-desc-two {
+    color: #777777;
+}
+
+.talk-to-us .inner-form input,
+.talk-to-us .inner-form textarea {
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+}
+
+.talk-to-us .inner-form input:focus,
+.talk-to-us .inner-form textarea:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+.talk-to-us .inner-form input {
+    height: 50px;
+}
+
+.talk-to-us .inner-form textarea {
+    height: 150px;
+}
+
+/* End Talk To Us */
+
 /* Footer */
 .footer {
     padding: 30px 0;
