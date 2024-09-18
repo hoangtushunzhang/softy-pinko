@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-one: #8261EE;
+    --color-two: #FF5896;
+    --color-text: #1e1e1e;
+
+    --font: "Raleway", sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    color: var(--color-text);
+    line-height: 1.6;
+    font-family: var(--font);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-two);
+    text-decoration: none;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 45px;
+    background: #fff;
+    color: var(--color-text);
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    text-transform: uppercase;
+
+    &--two {
+        background: var(--color-two);
+        color: #fff;
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+            background: var(--color-one);
+            color: #fff;
+        }
+    }
+
+    &--blog {
+        background: var(--color-one);
+        color: #fff;
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+            background: var(--color-two);
+            color: #fff;
+        }
+    }
+}
+
+
+/* End Button */
+
+/* Box Head */
+.box-head {
+    text-align: center;
+    margin-bottom: 30px;
+
+    &__title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    
+    &__desc {
+        font-size: 15px;
+        color: #777777;
+        margin-bottom: 30px;
+    }
+}
+/* End Box Head */
